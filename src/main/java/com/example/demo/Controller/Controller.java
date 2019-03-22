@@ -12,6 +12,7 @@ public class Controller {
     @RequestMapping("/testSpring")
     private String test(){
         logger.info("=======");
+        logger.info("测试分支");
         return "hello world";
     }
 }
